@@ -1,0 +1,39 @@
+{
+    "name": "@regex-radar/recheck-wasm",
+    "version": "4.5.0-alpha.1",
+    "description": "The WASM implementation of recheck - distributed in ESM format",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": {
+        "name": "Kevin Ramharak",
+        "url": "https://github.com/kevinramharak"
+    },
+    "homepage": "https://github.com/regex-radar/recheck-wasm",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/regex-radar/recheck-wasm.git"
+    },
+    "type": "module",
+    "files": [
+        "lib",
+        "types.d.ts"
+    ],
+    "exports": {
+        ".": {
+            "types": "./types.d.ts",
+            "import": "./lib/recheck.js"
+        }
+    },
+    "engines": {
+        "node": ">=24"
+    },
+    "keywords": [
+        "redos",
+        "regexp",
+        "security",
+        "vulnerability",
+        "wasm"
+    ]
+}
