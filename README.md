@@ -1,4 +1,4 @@
-# `recheck-wasm`
+# `recheck-scalajs-wasm`
 
 > [!NOTE]
 >
@@ -14,7 +14,7 @@ This distribution provides the following API:
 
 ```ts
 // esm-recheck provides the original API
-import { check } from '@regex-radar/recheck-wasm';
+import { check } from '@regex-radar/recheck-scalajs-wasm';
 
 // NOTE: this is the sync function, and can be computationally heavy and thus block any UI running on the same thread.
 const result = check('(a|aa)+', 'g');

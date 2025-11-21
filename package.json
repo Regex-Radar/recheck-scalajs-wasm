@@ -1,7 +1,7 @@
 {
-    "name": "@regex-radar/recheck-wasm",
+    "name": "@regex-radar/recheck-scalajs-wasm",
     "version": "4.5.0-alpha.1",
-    "description": "The WASM implementation of recheck - distributed in ESM format",
+    "description": "The ScalaJS WASM implementation of recheck - distributed in ESM format",
     "license": "MIT",
     "publishConfig": {
         "access": "public"
@@ -10,10 +10,10 @@
         "name": "Kevin Ramharak",
         "url": "https://github.com/kevinramharak"
     },
-    "homepage": "https://github.com/regex-radar/recheck-wasm",
+    "homepage": "https://github.com/regex-radar/recheck-scalajs-wasm",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/regex-radar/recheck-wasm.git"
+        "url": "git+https://github.com/regex-radar/recheck-scalajs-wasm.git"
     },
     "type": "module",
     "files": [
